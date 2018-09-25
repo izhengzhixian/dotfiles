@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: org blog head
+# key: blog
+# --
+#+TITLE: ${1:`(buffer-name)`}
+#+DATE: `(format-time-string "<%Y-%m-%d %a>")`
+#+LAYOUT: post
+#+OPTIONS: ^:{}
+#+CATEGORIES: $2
+#+TAGS: $3
+
+* ${4:$1}
+$0

@@ -1,0 +1,54 @@
+* 我的配置文件
+
+** 安装方法
+   #+BEGIN_SRC sh
+     git clone http://github.com/zzx666/dotfile
+     cd dotfile
+     make
+     # 因为有一些配置是涉及到电子邮件的，所以可以在 make 时指定参数（qq 帐号，qq 邮箱密码，发送邮件时的名字），只支持 qq 邮箱，其他邮箱自己配置
+     # 例子：make ARG_QQ=1000000 ARG_EMAIL_PWD=password ARG_NAME=名字
+     # 直接运行 make 将会安装默认配置，参考下一节
+     # 如果要安装 awesome 等可选项，可以手动输入，make awesome
+   #+END_SRC
+
+** 默认安装
+   1. vim
+      #+BEGIN_QUOTE
+      有两种模式，简单版和插件版
+
+      简单版只需要把本文件放在家目录下即可
+
+      下面是插件版运行方式：
+
+      git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+      然后进入 vim，执行 VundleInstall 即可
+
+      安装完成之后，进入 vim，输入:PluginInstall，回车，等待安装完成就可以了
+      #+END_QUOTE
+   3. emacs
+      使用 spacemacs，加上了一些自己的配置，当前兼容 be6db59b 分支
+   4. tmux
+      需要: tmux >= 2.1
+
+      copy 的，https://github.com/gpakosz/.tmux.git
+   5. fonts
+
+      一些常用的字体
+   6. zsh
+
+      好用的 oh-my-zsh
+   7. terminator
+
+      只是一些很简单的修改
+   8. i3
+
+      copy 的，https://github.com/levinit/i3wm-config
+** 可选项
+   - pictures
+
+     好看的壁纸
+   - awesome
+   - mutt
+   - vundle
+     vim 的包管理器

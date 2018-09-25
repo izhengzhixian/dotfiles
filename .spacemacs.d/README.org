@@ -1,0 +1,16 @@
+* spacemacs 使用过程中出现问题的解决办法
+
+  1. markdown 模式依赖软件 pandoc
+     还可以用 npm 安装 vmd，然后写 markdown 文档时，运行 vmd-mode，即可实时预览
+  2. org 导出 docx 依赖 pandoc
+  3. org 导出 pdf 依赖 xelatex
+  4. python mode 依赖以下 package
+     #+BEGIN_SRC sh
+       pip3 install importmagic epc
+       pip install --upgrade "jedi>=0.9.0" "json-rpc>=1.8.1" "service_factory>=0.1.5"
+       pip install flake8
+       pip install autoflake
+       pip install hy
+     #+END_SRC
+  5. c/c++ mode 依赖 clang
+  6. 当前兼容be6db59b分支

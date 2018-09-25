@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: copyright self
+# key: copr
+# --
+/***************************************************************************
+ * 
+ * Copyright (c) `(format-time-string "%Y")`, Inc. All Rights Reserved
+ * 
+ **************************************************************************/
+ 
+ 
+ 
+/**
+ * @file `(buffer-name)`
+ * @author `copyright-author`(`copyright-email`)
+ * @date `(format-time-string "%Y/%m/%d %H:%M:%S")`
+ * @brief $1
+ *  
+ **/
+
+$0
