@@ -350,7 +350,7 @@ endif
 " 以下是基本配置
 
 "设置中文提示
-language messages zh_CN.utf-8 
+"language messages zh_CN.utf-8 
 "设置中文帮助
 set helplang=cn
 set nocompatible            " 关闭兼容模式
