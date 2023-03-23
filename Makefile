@@ -38,6 +38,11 @@ emacs-python:
 	sudo pip3 install autoflake
 	sudo pip3 install hy
 
+go:
+	go install github.com/go-delve/delve/cmd/dlv@latest
+	go install honnef.co/go/tools/cmd/staticcheck@latest
+	go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
+
 tmux:
 	cp .tmux.conf* ~
 
